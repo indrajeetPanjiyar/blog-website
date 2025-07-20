@@ -1,3 +1,55 @@
+# 📝 React Blog Website
+
+A fully functional and responsive **React Blog Website** that displays posts and allows filtering by **categories** and **tags**. Built with **React**, **React Router**, **Context API**, and styled using **Tailwind CSS**.
+
+---
+
+## 🚀 Features
+
+- 📚 List of blog posts
+- 🗂️ Category-based filtering
+- 🏷️ Tag-based filtering
+- 🔄 Client-side routing using React Router
+- ⚙️ Global state management via React Context API
+- 🎨 Tailwind CSS for modern responsive UI
+
+---
+
+## 📸 Preview
+- Home Page
+![Home Page](public/HomePage.png)
+
+- Tag Page
+  ![Tag Page](public/TagPage.png)
+
+- Category Page
+  ![Category Page](public/CategoryPage.png)
+
+---
+
+## 🧪 Tech Stack
+
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Context API](https://reactjs.org/docs/context.html)
+
+---
+
+## 📂 Project Structure
+
+src/
+├── piblic/ # Images and static assets
+├── components/ # Reusable UI components (Header, BlogDetails, Blogs, etc.)
+├── context/ # Context API setup (AppContext)
+├── baseUrl/ # Static blog post can fetch from API
+├── pages/ # Route-based pages (Home, Category, Tags, Blog)
+├── App.js # Route configuration
+├── App.css # Tailwind CSS imports
+└── index.js # Entry point
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
