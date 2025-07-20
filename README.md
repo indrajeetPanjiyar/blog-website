@@ -39,14 +39,14 @@ A fully functional and responsive **React Blog Website** that displays posts and
 ## 📂 Project Structure
 
 src/
-├── piblic/ # Images and static assets
-├── components/ # Reusable UI components (Header, BlogDetails, Blogs, etc.)
-├── context/ # Context API setup (AppContext)
-├── baseUrl/ # Static blog post can fetch from API
-├── pages/ # Route-based pages (Home, Category, Tags, Blog)
-├── App.js # Route configuration
-├── App.css # Tailwind CSS imports
-└── index.js # Entry point
+- piblic/ # Images and static assets
+- components/ # Reusable UI components (Header, BlogDetails, Blogs, etc.)
+- context/ # Context API setup (AppContext)
+- baseUrl/ # Static blog post can fetch from API
+- pages/ # Route-based pages (Home, Category, Tags, Blog)
+- App.js # Route configuration
+- App.css # Tailwind CSS imports
+- index.js # Entry point
 
 
 
